@@ -12,4 +12,9 @@
   # install ganache (test blockchain net): https://www.trufflesuite.com/ganache 
   # npm install
   # npm install --save identicon.js@2.3.3  //favicon for eth address 
-  # open a new terminal and run $ npm run start
+  # open a new terminal and run    $ npm run start
+  # quick start ganache
+
+  # truffle migrate : this deploys ALL contracts in the /contracts folder; check granche for gas  fee reduction and termial print outs 
+  # truffle console 
+          ## contract = await EthSwap.deployed()
