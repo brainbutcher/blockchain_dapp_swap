@@ -12,3 +12,4 @@
   # install ganache (test blockchain net): https://www.trufflesuite.com/ganache 
   # npm install
   # npm install --save identicon.js@2.3.3  //favicon for eth address 
+  # open a new terminal and run $ npm run start
