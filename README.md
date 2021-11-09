@@ -18,4 +18,6 @@
           ## truffle migrate 
           ## truffle migrate --reset   ## use this is you mess up 
           ## truffle console 
-          ## MyContract = await EthSwap.deployed()   // might need to retype variable name 
+          ## myContract = await EthSwap.deployed()   // might need to retype variable name 
+          ## name = await myContract.name()
+          ## myContract.address
