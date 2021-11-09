@@ -1,3 +1,4 @@
+// migration Contract -- file form truffle, used to deploy other smart contract to the blockchain   
 pragma solidity >=0.4.21 <0.6.0;
 
 contract Migrations {
