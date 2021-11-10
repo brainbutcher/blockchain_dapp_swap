@@ -11,13 +11,14 @@
           ## install node.js: https://nodejs.org/en/
           ## install ganache (test blockchain net): https://www.trufflesuite.com/ganache 
           ## npm install
+          ## npm install -g truffle@5.1.14
           ## npm install --save identicon.js@2.3.3  //favicon for eth address 
           ## open a new terminal and run    $ npm run start
           ## quick start ganache
 
           ## truffle migrate 
-          ## truffle migrate --reset   ## use this is you mess up 
+          ## truffle migrate --reset   **// need this to deploy a new copy to the blockchain -- because Solidity is immutable code  
           ## truffle console 
-          ## myContract = await EthSwap.deployed()   // might need to retype variable name 
-          ## name = await myContract.name()
-          ## myContract.address
+             ## myContract = await EthSwap.deployed()   // might need to retype variable name 
+             ## name = await myContract.name()          // await is an async --  promise
+             ## myContract.address
