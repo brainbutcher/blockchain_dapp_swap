@@ -16,9 +16,21 @@
           ## open a new terminal and run    $ npm run start
           ## quick start ganache
 
-          ## truffle migrate 
-          ## truffle migrate --reset   **// need this to deploy a new copy to the blockchain -- because Solidity is immutable code  
+# need this to deploy a new copy to the blockchain -- because Solidity immutable code testing
+          ## truffle init
+          ## truffle migrate
+
+          ## truffle migrate --reset   
           ## truffle console 
              ## myContract = await EthSwap.deployed()   // might need to retype variable name 
              ## name = await myContract.name()          // await is an async --  promise
              ## myContract.address
+         
+         ## npm install chai
+         ## npm install --global mocha
+
+         ## truffle test
+             ## BDD/TDD testing 
+
+# node.js quick cli 
+         ## $ lsof -i tcp:3000 --> $ kill -9 <PID>
